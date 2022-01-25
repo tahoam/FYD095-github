@@ -1,4 +1,3 @@
-import numpy as np
 print('Insert coefficients for the quadratic function ax^2+bx+c:')
 print('a=')
 a = int(input())
