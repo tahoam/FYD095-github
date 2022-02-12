@@ -5,9 +5,9 @@ Pushing local code to online repo: git push origin master\
 ## Point system
 You need 30 points in total to pass the course and one point from each subchapter in the compendium\
 
-*item There are 10 subchapters in the first part of the course.
-*item There are 6 subchapters in the second part.
-*item There are 4 in the third part.
-*item There are 5 in the fourth part.
+* There are 10 subchapters in the first part of the course.
+* There are 6 subchapters in the second part.
+* There are 4 in the third part.
+* There are 5 in the fourth part.
 
 That sum up to 25 points minimum, depending on the point score on the assignments, This means that the total number of assignments needed to finish the course with a bare minimum passing grade you need to finish at most 5 additional assignments in the same chapters.\
