@@ -1,0 +1,13 @@
+1: A[1:3], element 1-3, ej inclusive.
+2: A[3:1:-1], element 3-1, ej inclusive.
+3: A[-1::-1], element -1 (dvs sista), stega med -1, dvs gå baklänges genom listan.
+4: A[len(A):-1:1], från sista till sista, steg 1. Redan klar dock.
+5: A[1:10], pyton slutar bry sig efter listan är klar. kan ha värden out of bounds.
+6: A.append(10), lägger till 10 på slutet i listan.
+
+1: A[1:3], element 1-3, ej inclusive.
+2: A[3:1:-1], element 3-1, ej inclusive.
+3: A[-1::-1], element -1 (dvs sista), stega med -1, dvs gå baklänges genom listan.
+4: A[len(A):-1:1], från sista till sista, steg 1. Redan klar dock.
+5: A[1:10], pyton slutar bry sig efter listan är klar. kan ha värden out of bounds.
+6: A.append(10), funktion för lista error.
