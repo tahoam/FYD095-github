@@ -15,7 +15,7 @@ That sum up to 25 points minimum, depending on the point score on the assignment
 
 Assignments done:\
 
-- [ x ] 1.1.1\
+- [x] 1.1.1\
 - [ x ] 1.1.2\
 - [ x ] 1.1.3 
 
