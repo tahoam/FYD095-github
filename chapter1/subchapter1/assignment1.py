@@ -8,7 +8,8 @@ b = int(input())
 print('c=')
 c = int(input())
 
-pos_root = - b/2 + ((b/2)**2 - c)**(1/2)
-neg_root = - b/2 - ((b/2)**2 - c)**(1/2)
+# a = 0 ok, since we assume two roots. Can't be a linear function.
+pos_root = (- b + (b**2 - 4*a*c)**(1/2)) / (2*a)
+neg_root = (- b - (b**2 - 4*a*c)**(1/2)) / (2*a)
 
 print(f'The roots are {neg_root} and {pos_root}!')

@@ -9,7 +9,7 @@ def getPrimes(n):
 
 input_number = int(input('Ange ett positivt heltal! '))
 
-primes = getPrimes(input_number)
+primes = getPrimes(input_number + 1)
 factors = []
 
 for i in primes:
