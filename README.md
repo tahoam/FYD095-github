@@ -12,3 +12,46 @@ You need 30 points in total to pass the course and one point from each subchapte
 * There are 5 in the fourth part.
 
 That sum up to 25 points minimum, depending on the point score on the assignments, This means that the total number of assignments needed to finish the course with a bare minimum passing grade you need to finish at most 5 additional assignments in the same chapters.\
+
+Assignments done:\
+
+1.1.1\
+1.1.2 check\
+1.1.3 check\
+
+1.2.1 check\
+1.2.2 check\
+1.2.3 \
+
+1.3.1\
+1.3.2\
+1.3.3 check\
+
+1.4.1\
+1.4.2\
+1.4.3 check\
+
+1.5.1\
+1.5.2\
+1.5.3\
+
+1.6.1 check\
+1.6.2\
+1.6.3 check\
+
+1.7.1 check\
+1.7.2\
+1.7.3\
+
+1.8.1\
+1.8.2\
+1.8.3\
+
+1.9.1\
+1.9.2\
+1.9.3\
+
+1.10.1\
+1.10.2\
+1.10.3\
+
