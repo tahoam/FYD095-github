@@ -4,7 +4,6 @@ def geometricSeries(a1, q, n, i=0):
         print(an)
         return
 
-
     geometricSeries(a1, q, n-1, i+1)
 
 start = int(input('a: '))
