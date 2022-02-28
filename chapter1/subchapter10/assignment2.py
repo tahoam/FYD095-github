@@ -5,4 +5,4 @@ print_dict = dict(zip(range(len(a)), a))
 
 b = range(len(a))
 ind = int(input('Enter index: '))
-print(print_dict[ind])
+print(print_dict[b[ind]])
