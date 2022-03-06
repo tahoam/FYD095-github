@@ -7,10 +7,7 @@ circle4 = plt.Circle((0.39, 0.5), 0.1, color='y', fill=False)
 circle5 = plt.Circle((0.61, 0.5), 0.1, color='g', fill=False)
 
 
-fig, ax = plt.subplots() # note we must use plt.subplots, not plt.subplot
-# (or if you have an existing figure)
-# fig = plt.gcf()
-# ax = fig.gca()
+fig, ax = plt.subplots()
 
 ax.add_patch(circle1)
 ax.add_patch(circle2)
@@ -18,4 +15,4 @@ ax.add_patch(circle3)
 ax.add_patch(circle4)
 ax.add_patch(circle5)
 
-fig.savefig('plotcircles.png')
+fig.savefig('olymic_rings.png')
