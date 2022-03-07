@@ -1,36 +1,20 @@
 import numpy as np
 
-mat = np.floor(np.random.rand(4,5)*12)
+#mat = np.floor(np.random.random_integers(4,5)*12)
+mat = np.random.randint(0, 12, size=(4, 5))
 print(mat)
 
-row, col = mat.shape
-
 # Sum rows
-for row in range(row):
-    print(sum(mat[row,:]))
-print()
+print(np.sum(mat, axis = 1))
 
-# Sum columns
-tmp = []
-for col in range(col):
-    tmp.append(sum(mat[:,col]))
-print(tmp)
-print()
+# Sum cols
+print(np.sum(mat, axis = 0))
 
-# Sum even columns
-tmp = []
-for col in range(col):
-    if col % 2 == 0:
-        tmp.append(sum(mat[:,col]))
-print(tmp)
-print()
+# Sum even cols
+print(np.sum(mat[:,::2], axis = 0))
 
 # Mean of columns
-tmp = []
-for col in range(col):
-    tmp.append(sum(mat[:,col])/row)
-print(tmp)
-print()
+print(np.mean(mat, axis = 0))
 
-# Mean whole matrix
-print(sum(sum(mat))/mat.size)
+# Mean of matrix
+print(np.mean(mat))
