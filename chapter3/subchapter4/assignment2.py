@@ -4,7 +4,7 @@ import math
 
 def integrate_with_trapeziod(func, boundaries, n_dx):
     a,b = boundaries
-    x_val = np. linspace(a,b, n_dx - 1)
+    x_val = np.linspace(a,b, n_dx - 1)
     y_val = []
 
     for x in x_val:
