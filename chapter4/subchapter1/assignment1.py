@@ -20,7 +20,7 @@ class Point:
         else:
             print('Point in origin..')
             phi = 0.0
-        theta = math.atan2(self.y, self.x)
+        theta = math.atan2(self.y, self.x)  #Fix theta
         return (r, phi, theta)
     
 

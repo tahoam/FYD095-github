@@ -10,7 +10,7 @@ def integrate_with_trapeziod(func, boundaries, n_dx):
     for x in x_val:
         y_val.append(func(x))
 
-    integral = intg.trapezoid(y_val)
+    integral = intg.trapz(y_val) # Can't use trapezoid, as scipy is outdated...
     print(f'Integralen blir {integral}.')
 
 
