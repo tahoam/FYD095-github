@@ -16,5 +16,5 @@ def integrate_with_trapeziod(func, boundaries, n_dx):
 
 func = lambda x: math.sin(x)
 bound = (0, math.pi)
-steps = 10
+steps = 5
 integrate_with_trapeziod(func, bound, steps)
