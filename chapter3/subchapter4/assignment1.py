@@ -4,12 +4,12 @@ import numpy as np
 def func(x):
     #return ((x-1)*(x+1))
     return (x-2)*(x-1)*(x+3)
-    
-def num_bisect(fun, tup, tol = 1e-5):
-    a, b = tup
-    error = np.abs(b-a)
 
-    while error > tol:
+def num_bisect(fun, tup, tol = 1e-5, n_max = 10000):
+    a, b = tup
+    # error
+    n = 0
+    while n < n_max: #error > tol:
         mid = (a+b)/2
         
         if fun(mid) == 0 or np.abs((b-a)/2) < tol:
@@ -19,6 +19,8 @@ def num_bisect(fun, tup, tol = 1e-5):
             a = mid
         else:
             b = mid
+        n += 1
+    
 
 
 #x1 = -2.0
