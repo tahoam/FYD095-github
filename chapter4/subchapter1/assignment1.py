@@ -20,12 +20,12 @@ class Point:
         else:
             print('Point in origin..')
             phi = 0.0
-        theta = math.atan2(self.y, self.x)  #Fix theta
-        return (r, phi, theta)
+        theta = math.atan2(self.y, self.x)
+        return (r, theta, phi)
     
 
-p1 = Point(1, 0, 0)
-p2 = Point(2, 2, 2)
+p1 = Point(-1, -1, 1)
+p2 = Point(1, 1, 1)
 p3 = Point()
 p1.__str__()
 print(p1.Sfariska())

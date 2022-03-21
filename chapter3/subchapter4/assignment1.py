@@ -7,7 +7,7 @@ def func(x):
 
 def num_bisect(fun, tup, tol = 1e-5, n_max = 10000):
     a, b = tup
-    # error
+    # error = np.abs(b-a)
     n = 0
     while n < n_max: #error > tol:
         mid = (a+b)/2
@@ -20,13 +20,11 @@ def num_bisect(fun, tup, tol = 1e-5, n_max = 10000):
         else:
             b = mid
         n += 1
-    
 
-
-#x1 = -2.0
+#x1 = -1.9
 #x2 = 0.0
 
-#x1 = -4.0
+#x1 = -4.1
 #x2 = -2.0
 x1 = 1.5
 x2 = 2.7
